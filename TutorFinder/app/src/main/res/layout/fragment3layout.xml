@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Punctuality"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <RatingBar
+        android:id="@+id/puntualityRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clarity"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <RatingBar
+        android:id="@+id/clarityRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teaching Strategy"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <RatingBar
+        android:id="@+id/strategyRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Behavior"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+            <RatingBar
+                android:id="@+id/BehaviorRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teaching Skill"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+            <RatingBar
+                android:id="@+id/skillRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How much effective?"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+            <RatingBar
+                android:id="@+id/effectRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overall Performance"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+            <RatingBar
+                android:id="@+id/performanceRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

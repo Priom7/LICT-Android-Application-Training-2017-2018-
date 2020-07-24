@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/profile"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tutorsIV"
+        android:background="@drawable/layoutdesign"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/frontpagebackground"
+        />
+
+
+    <TextView
+        android:id="@+id/tutorsnameTv"
+        android:background="@drawable/layoutdesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tutorsIV"
+        android:text="MD. Sharif Alam Priom"
+        android:layout_margin="10dp"
+        android:layout_alignBottom="@id/tutorsIV"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <ScrollView
+        android:layout_below="@id/tutorsIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:background="@drawable/layoutdesign"
+        android:elevation="5dp"
+        android:layout_below="@id/tutorsIV">
+
+        <TextView
+            android:id="@+id/tutorsage"
+            android:layout_below="@id/tutorsIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:text="Age : 21" />
+
+        <TextView
+            android:id="@+id/tutorsgender"
+            android:layout_below="@id/tutorsage"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Gender: Male"/>
+
+        <TextView
+            android:id="@+id/tutorsLocation"
+            android:layout_below="@id/tutorsgender"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:text="Lives in : Dhaka"/>
+
+        <TextView
+            android:id="@+id/tutorsCurrentJob"
+            android:layout_below="@id/tutorsLocation"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Currently Studying at North South University "/>
+
+        <TextView
+            android:id="@+id/tutorsCurrentDepartment"
+            android:layout_below="@id/tutorsCurrentJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text="Department : Computer Science and Engineering "/>
+
+    <TextView
+        android:id="@+id/tutorssemester"
+        android:layout_below="@id/tutorsCurrentDepartment"
+        android:text="Semester: 7th"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tutorsCurrentCGPA"
+            android:layout_below="@id/tutorssemester"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Current CGPA : 3.20"/>
+        <TextView
+            android:id="@+id/tutorsFormerclg"
+            android:layout_below="@id/tutorsCurrentCGPA"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:text="Passed HSC from Uttara High School and College"/>
+
+        <TextView
+            android:id="@+id/tutorsclgdepartment"
+            android:layout_below="@id/tutorsFormerclg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:text="Department : Science"/>
+        <TextView
+            android:id="@+id/tutorsHScgpa"
+            android:layout_below="@id/tutorsclgdepartment"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="HSC GPA : 5.00"/>
+        <TextView
+            android:id="@+id/tutorsscl"
+            android:layout_below="@id/tutorsHScgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:text="Passed SSC from Tongi Pilot High School"/>
+
+    <TextView
+        android:id="@+id/tutorssscdepartment"
+        android:layout_below="@id/tutorsscl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:text="Department : Science"/>
+        <TextView
+            android:id="@+id/tutorssscgpa"
+            android:layout_below="@id/tutorssscdepartment"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="SSC GPA : 5.00"/>
+
+        <TextView
+            android:id="@+id/tutorsEmail"
+            android:layout_below="@id/tutorssscgpa"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Email : priom7@yahoo.com"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <RatingBar
+        android:background="@drawable/layoutdesign"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorsnameTv"
+        android:layout_alignStart="@+id/tutorsnameTv"
+        android:layout_alignTop="@+id/tutorsIV" />
+
+
+</RelativeLayout>

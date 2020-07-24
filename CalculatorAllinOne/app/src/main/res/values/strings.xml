@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator All in One</string>
+    <string name="summation">summation</string>
+    <string name="_0">0</string>
+    <string name="_00">0</string>
+    <string name="division">division</string>
+    <string name="multiplication">multiplication</string>
+    <string name="reminder">reminder</string>
+    <string name="result">result</string>
+    <string name="subtraction">subtraction</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout"
+    tools:context="com.example.sapriom.calculatorallinone.CalculatorMainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="0"
+        android:textColor="#fff"
+        android:id="@+id/num1"
+        android:textColorHint="#fff"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="result" />
+
+
+
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="20"
+        android:text="@string/summation"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#2911af"
+        android:textColor="#fff"
+        android:elevation="20dp"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:elevation="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="20"
+        android:text="@string/subtraction"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#2911af"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="20"
+        android:text="@string/multiplication"
+        android:elevation="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#2911af"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/div"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/division"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="20"
+        android:layout_marginLeft="50dp"
+        android:elevation="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#2911af"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/res"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="20"
+        android:text="@string/reminder"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="20dp"
+        android:background="#2911af"
+        android:textColor="#fff"/>
+
+</LinearLayout>

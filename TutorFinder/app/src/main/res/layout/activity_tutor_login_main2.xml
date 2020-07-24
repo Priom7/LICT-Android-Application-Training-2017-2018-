@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sapriom.tutorfinder.TutorLoginMain2Activity">
+
+    <LinearLayout
+        android:id="@+id/TutorLoginLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/tutorslogin"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tutorloginEtlinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:elevation="2dp"
+        android:background="@drawable/layoutdesign"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tutorLoginTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <EditText
+            android:elevation="-2dp"
+            android:id="@+id/tutorUseNameTv"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_margin="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:elevation="-2dp"
+            android:id="@+id/tutorPasswordTv"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_margin="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tutorsignupTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up as tutor?"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/tutorsLoginButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tutorsignupTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/buttondesign"
+        android:elevation="5dp"
+        android:text="Submit"
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frontpage"
+    tools:context="com.example.sapriom.tutorfinder.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/AllbuttonsLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutdesign"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="200dp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttondesign"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="0dp"
+            android:text="Search for Tutor"/>
+
+        <Button
+            android:id="@+id/registertutobutton"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/buttondesign"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="Register as Tutor"/>
+
+
+        <Button
+            android:id="@+id/logitutorbutton"
+            android:layout_width="200dp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttondesign"
+            android:layout_margin="2dp"
+            android:textColor="#fff"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Login as Tutor"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
